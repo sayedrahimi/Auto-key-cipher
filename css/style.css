@@ -1,0 +1,17 @@
+.add{
+    margin-top: 10vh;
+}
+h3{
+    text-align: center;
+}
+
+#bgcolor{
+    background-color: #faedcd;
+}
+
+.background{
+    background-color: #d4a373;
+    padding: 40px;
+    border-radius: 10px;
+    
+}

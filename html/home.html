@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Auto Key Encryption</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <script defer src="../js/script.js"></script>
+</head>
+
+<body id="bgcolor">
+
+    <div class="row">
+        <div class="col-md-6 mx-auto">
+            <div class="container add background">
+                <h3>Auto key Encryption</h3>
+                Plain Text:
+                <input class="form-control " type="text" id="plainTextAuth">
+                Auto Key:
+                <input class="form-control " type="text" name="key" id="keyAuth">
+                <br>
+                <button class="btn btn-success " type="button" id="changeAuth">Encrypt</button>
+                <br>
+                <br>
+                Cipher Text:
+                <h4 class="form-control " id="cipherTextAuth"><br></h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-3">
+        <div class="col-md-6 mx-auto">
+            <div class="container add background">
+                <h3>Auto key Decryption</h3>
+                Cipher Text:
+                <input class="form-control " type="text" id="plainTextAuthD">
+                Auto Key:
+                <input class="form-control " type="text" name="key" id="keyAuthD">
+                <br>
+                <button class="btn btn-success " type="button" id="changeAuthD">Decrypt</button>
+                <br>
+                <br>
+                Plain Text:
+                <h4 class="form-control " id="cipherTextAuthD"><br></h4>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
